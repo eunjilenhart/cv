@@ -1,0 +1,208 @@
+/***************TAG selector***************************/
+body {
+  background-color: #FCF9F7;
+  margin: 0;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.3em;
+  color: #153E4D;
+}
+
+/**to center text, text-align center inside the container,
+    or the parent element, will center everything that doesnt have a width set to certain length.********/
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 5.625rem;
+  color: #E66363;
+  margin: 0;}
+
+
+h2 {
+  font-size: 2.5rem;
+  color: #E66363;
+}
+
+h3 {
+  color: #59FFF9;
+  font-size: 2rem;
+}
+
+a {
+  color: #335F61;
+  font-size: 1em;
+  text-decoration: none;
+}
+a:hover{
+  color: #A5E5E8;
+}
+
+hr {
+  width: 7%;
+  border: none;
+  border-top: dotted 10px;
+  color: #467A7D;
+}
+
+/**to center text, if it is a block element and it has a width set, then it has to be centered using auto value in the
+    margin  ********/
+/***************CLASS selector***************************/
+
+.top-container {
+  background-color: #EBDAD9;
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 200px;
+}
+
+.firstwave {
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  overflow: hidden;
+  transform: scaleY(-1);
+}
+
+.secondwave {
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  overflow: hidden;
+  transform: scaleY(-1);
+  position: relative;
+  top: 50px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 150px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 200px;
+}
+
+.middle-container {
+  background-color: #FCF9F7;
+}
+
+.eunjigif {
+  width: 130px;
+  height: auto;
+}
+
+.realeunji {
+  width: 180px;
+  height: auto;
+  border-radius: 100%;
+  margin-top: 80px;
+}
+
+.skills {
+  background-color: #335F61;
+}
+
+.skillh2 {
+  color: #FFFFFF;
+  text-align: center;
+
+}
+
+.skill-row {
+  color: #FFFFFF;
+  width: 55%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.skill-row2 {
+  color: #FFFFFF;
+  width: 55%;
+  margin: 80px auto 0 auto;
+  text-align: left;
+  line-height: 1.5;
+  padding-bottom: 80px;
+}
+
+.pencil {
+  width: 100px;
+  height: auto;
+  float: left;
+  margin: 70px 50px 50px 0;
+}
+
+.coding {
+  width: 100px;
+  height: auto;
+  float: right;
+  margin: 120px 60px;
+}
+
+.contace-me {
+  background-color: #FCF9F7;
+  margin-bottom: 70px;
+}
+
+.bottom-container {
+  background-color: #87C4C7;
+  margin-top: 60px;
+  padding-bottom: 20px;
+}
+
+.h2contactme {
+  color: #87C4C7;
+}
+
+.h3contactme {
+  color: #153E4D;
+}
+
+.nocost {
+  width: 55%;
+  margin: 50px auto;
+}
+
+.copyright{
+  color: #FFFFFF;
+  font-size: .8rem;
+  padding: 20px 0;
+}
+
+.footer-link {
+  margin: 20px;
+  font-size: 1rem;
+}
+
+.btn {
+  background: #60B1B5;
+  background-image: -webkit-linear-gradient(top, #60B1B5, #576869);
+  background-image: -moz-linear-gradient(top, #60B1B5, #576869);
+  background-image: -ms-linear-gradient(top, #60B1B5, #576869);
+  background-image: -o-linear-gradient(top, #60B1B5, #576869);
+  background-image: linear-gradient(to bottom, #60B1B5, #576869);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 8px;
+  font-family: verdana;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #77DBE0, #60B1B5);
+  background-image: -moz-linear-gradient(top, #77DBE0,#60B1B5);
+  background-image: -ms-linear-gradient(top, #77DBE0, #60B1B5);
+  background-image: -o-linear-gradient(top, #77DBE0, #60B1B5);
+  background-image: linear-gradient(to bottom, #77DBE0, #60B1B5);
+  text-decoration: none;
+}
